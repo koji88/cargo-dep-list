@@ -12,7 +12,6 @@ setup(name='cargo_dep_list',
       cargo_dep_list = cargo_dep_list.main:main
       """,
       install_requires=[
-          'json',
           'requests'
       ],
 )
